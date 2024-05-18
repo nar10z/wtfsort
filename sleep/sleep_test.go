@@ -1,4 +1,4 @@
-package stalin
+package sleep
 
 import (
 	"fmt"
