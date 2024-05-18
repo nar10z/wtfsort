@@ -4,4 +4,4 @@ package sleep
 
 import "time"
 
-const acq = 50 * time.Microsecond
+const acq = 15 * time.Millisecond
