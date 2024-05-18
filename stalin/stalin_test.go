@@ -1,13 +1,12 @@
-package thanos
+package stalin
 
 import (
 	"fmt"
+	"github.com/stretchr/testify/assert"
 	"math/rand"
 	"slices"
 	"testing"
 	"time"
-
-	"github.com/stretchr/testify/assert"
 )
 
 func TestSort(t *testing.T) {
