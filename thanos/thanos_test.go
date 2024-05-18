@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestSort(t *testing.T) {
+func Test_Thanos_Sort(t *testing.T) {
 	t.Parallel()
 
 	rand.Seed(time.Now().UnixNano())

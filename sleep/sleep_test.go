@@ -2,12 +2,13 @@ package sleep
 
 import (
 	"fmt"
-	"github.com/stretchr/testify/assert"
 	"slices"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
-func TestSort(t *testing.T) {
+func Test_Sleep_Sort(t *testing.T) {
 	t.Parallel()
 
 	t.Run("#1. Empty", func(t *testing.T) {

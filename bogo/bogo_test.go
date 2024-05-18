@@ -1,14 +1,15 @@
 package bogo
 
 import (
-	"github.com/stretchr/testify/assert"
 	"math/rand"
 	"slices"
 	"testing"
 	"time"
+
+	"github.com/stretchr/testify/assert"
 )
 
-func TestSort(t *testing.T) {
+func Test_BOGO_Sort(t *testing.T) {
 	t.Parallel()
 
 	rand.Seed(time.Now().UnixNano())
